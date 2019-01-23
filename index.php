@@ -9,7 +9,9 @@ echo "hello, $name $lastname ";
 
 ?>
 
-//
+/*Creare una variabile con un paragrafo di testo.
+ Visualizzare a schermo il paragrafo con la relativa lunghezza e sostituire la badword passata
+ in GET con tre * */
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -30,6 +32,6 @@ echo "hello, $name $lastname ";
 
     echo $censureword;
     ?>
-    
+
   </body>
 </html>
